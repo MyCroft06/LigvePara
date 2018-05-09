@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:background="#000"
+    card_view:cardCornerRadius="8dp">
+
+    <TextView
+        android:id="@+id/isim"
+        android:layout_width="260dp"
+        android:layout_height="30dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" />
+
+    <TextView
+        android:id="@+id/galibiyet"
+        android:layout_width="35dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/beraberlik"
+        android:layout_width="35dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/maglubiyet"
+        android:layout_width="35dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/puan"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
